@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button onClick="location.href='https://www.onliner.by'">Перейти на сайт</button>
+<button onClick="change()">Изменить страницу</button>
 </body>
+<script>
+    function change() {
+        document.body.innerHTML = // заменяем содержимое
+            '<iframe src="index_2.html" width="100%" height="100%" frameborder="0" scrolling="no">'
+    }
+</script>
 </html>
